@@ -11,7 +11,7 @@ export default function BrandLogo({ variant = "art", className = "" }: BrandLogo
       alt="IVAN animated airbrush logo"
       width={360}
       height={234}
-      className={`h-auto w-[100px] object-contain ${className}`}
+      className={`h-auto object-contain ${className || "w-[100px]"}`}
     />
   );
 }
